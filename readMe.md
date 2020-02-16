@@ -24,36 +24,36 @@ expt1/cnn_large
 
 ## Run the models
 
-For MLP on MNIST in section **3.1**
+For MLP on MNIST in Section **3.1**
 
 ```
 bash expt1/fc/run.sh
 ```
 
-For CNN on MNIST experiment in section **3.1**
+For CNN on MNIST experiment in Section **3.1**
 
 ```
 bash expt1/cnn/runMNIST.sh
 ```
-For CNN on CIFAR-10 experiment in section **3.1**
+For CNN on CIFAR-10 experiment in Section **3.1**
 
 ```
 bash expt1/cnn/runCIFAR.sh
 ```
 
-For AlexNet on ImageNet experiment in section **3.1**
+For AlexNet on ImageNet experiment in Section **3.1**
 
 ```
 bash expt1/cnn_large/runAlexNet.sh
 ```
 
-For VGG-16 on ImageNet experiment in section **3.1**
+For VGG-16 on ImageNet experiment in Section **3.1**
 
 ```
 bash expt1/cnn/runVGG.sh
 ```
 
-For ResNet-16 on ImageNet experiment in section **3.1**
+For ResNet-16 on ImageNet experiment in Section **3.1**
 
 ```
 bash expt1/cnn/runResNet.sh
@@ -69,7 +69,7 @@ Or you use one-shot pruning (need to modify the prune fraction in bash file):
 bash expt1/fc/run.sh
 ```
 
-For experiments in section **3.3**
+For experiments in section **3.3 & 4.2** (slightly change on dataset configuration)
 
 ```
 bash expt2/fc/run.sh
@@ -91,7 +91,6 @@ For cnn on cifar in section **5.3**
 ```
 bash expt3/cnn/run_cifar_pnn.sh
 ```
-
 
 ## For CNN in expt3:
 - First download CIFAR dataset and put the data in expt3/cnn/cifar10(100) 
