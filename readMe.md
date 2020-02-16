@@ -58,6 +58,16 @@ For ResNet-16 on ImageNet experiment in section **3.1**
 ```
 bash expt1/cnn/runResNet.sh
 ```
+For MLP (for CNN/VGG-16/AlexNet/ResNet-50, please change the corresponding scripts same as Section **3.1**)in section **3.2**, if you choose iterative pruning (Please change the directories of models):
+
+```
+python expt1/LTH/main.py --prune_type=lt --arch_type=fc2 --dataset=mnist --prune_percent=5 --prune_iterations=19
+bash expt1/fc/run.sh
+```
+Or you use one-shot pruning (need to modify the prune fraction in bash file):
+```
+bash expt1/fc/run.sh
+```
 
 For experiments in section **3.3**
 
