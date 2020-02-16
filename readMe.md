@@ -14,28 +14,39 @@ sh installation.sh
 ```
 ## Run the models
 
-For experiments in section **3.1**
+For MLP on MNIST in section **3.1**
 
 ```
 bash expt1/fc/run.sh
 ```
 
-For CNN on MNIST experiment in section **3.2**
+For CNN on MNIST experiment in section **3.1**
+
+```
+bash expt1/cnn/runMNIST.sh
+```
+For CNN on CIFAR-10 experiment in section **3.1**
 
 ```
 bash expt1/cnn/runMNIST.sh
 ```
 
-For AlexNet on ImageNet experiment in section **3.2**
+For AlexNet on ImageNet experiment in section **3.1**
 
 ```
-bash expt1/cnn_large/runMNIST.sh
+bash expt1/cnn_large/runAlexNet.sh
 ```
 
-For VGG-16 on ImageNet experiment in section **3.2**
+For VGG-16 on ImageNet experiment in section **3.1**
 
 ```
-bash expt1/cnn/runCIFAR.sh
+bash expt1/cnn/runVGG.sh
+```
+
+For ResNet-16 on ImageNet experiment in section **3.1**
+
+```
+bash expt1/cnn/runResNet.sh
 ```
 
 For experiments in section **4.2**

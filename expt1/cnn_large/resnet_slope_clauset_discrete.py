@@ -153,7 +153,7 @@ def plot(degree, str1, str2, str3, option, xaxis_labels):
 
     plt.tight_layout()
     p.savefig(
-        'figures/res50/{3}_imagenet_{0}_{1}_{2}_{3}.png'.format(option, str1, str2, str3))
+        'figures/resnet60_dsd_layer/powerlaw_clauset/{3}_imagenet_{0}_{1}_{2}_{3}.png'.format(option, str1, str2, str3))
 
 
 def degree_plot(data, name, prune_fraction, shape_info, option, xaxis_labels_all):
