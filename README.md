@@ -21,7 +21,15 @@ expt1/cnn_large
 ```
 - For GPU support during training, please refer to this [tutorial](https://lasagne.readthedocs.io/en/latest/user/installation.html#cuda).
 - Please make sure the configuration of environmental variables has been done under root path.  
-
+- For CNN in ./expt3 first download CIFAR dataset and put the data in expt3/cnn/cifar10(100) and run the scripts to build up pickle input format (need minor changes on the path):
+```
+cd pylearn2/pylearn2/datasets
+python cifar10.py
+python cifar100.py
+cd power-law/pylearn2/pylearn2/scripts/datasets
+python make_cifar10_gcn_whitened.py
+python make_cifar100_gcn_whitened.py
+```
 ## Run the models
 
 For MLP on MNIST in Section **3.1**
