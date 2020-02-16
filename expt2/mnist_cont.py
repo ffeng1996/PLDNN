@@ -12,6 +12,7 @@ import lasagne
 from collections import OrderedDict
 from argparse import ArgumentParser
 
+# For experiment in Section 4.2, please ignore the permuted dataset and use the same dataset as task 1.
 # Permute images
 def permute_mnist(window_size, X_train, y_train, X_val, y_val, X_test, y_test):
 	num_permute = window_size*window_size

@@ -69,10 +69,10 @@ Or you use one-shot pruning (need to modify the prune fraction in bash file):
 bash expt1/fc/run.sh
 ```
 
-For experiments in section **3.3 & 4.2** (slightly change on dataset configuration)
+For experiments in section **3.3 & 4.2** (slightly change on dataset configuration, marked in code)
 
 ```
-bash expt2/fc/run.sh
+bash expt2/run.sh
 ```
 
 For experiments in section **5.1 & 5.2**
